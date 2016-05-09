@@ -1,0 +1,8 @@
+# install.packages("devtools")
+# library(devtools)
+# install_github("slidify", "ramnathv")
+# install_github("slidifyLibraries", "ramnathv")
+# library(slidify)
+# author("mydeck")
+slidify("index.Rmd")
+publish(user = "anielsen108", repo = "ddp_project")
